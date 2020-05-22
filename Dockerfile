@@ -1,4 +1,4 @@
 FROM alpine
 COPY quickstart.sh /
-CMD touch testfile
+CMD touch testfile2
 CMD ["/quickstart.sh"]
